@@ -8,13 +8,6 @@
             "Lysice\\Weather\\Exceptions\\" : "Exceptions"
         }
     },
-    "require": {
-        "guzzlehttp/guzzle": "^7.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "mockery/mockery": "^1.4"
-    },
     "extra" : {
         "laravel" : {
             "providers" : [
@@ -28,5 +21,12 @@
             "name": "lysice",
             "email": "snowist@126.com"
         }
-    ]
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5",
+        "mockery/mockery": "~1.1"
+    }
 }
